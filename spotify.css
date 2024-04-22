@@ -79,10 +79,22 @@ body{
 }
 
 .content3{
-    color: #b3b3b3;;
-    /* font-weight: 700; */
+    opacity: 0.5;
+    color: white;
+    transition: 0.5s ease;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.content3:hover{
+    font-weight: 500;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+/* .content3{
+
+    color: #b3b3b3;;
+    font-weight: 700;
+} */
 
 .content3:hover{
     color: white;
@@ -105,11 +117,14 @@ body{
 }
 
 .content4-1{
-    opacity: 0.7;
+    opacity: 0.5;
     color: white;
+    transition: 1s ease;
 }
 
 .content4-1:hover{
+    font-weight: 500;
+    transition: 0.5s ease;
     opacity: 1;
 }
 
@@ -387,6 +402,10 @@ body{
 
 .cursor{
     cursor: pointer;
+}
+
+.default{
+    cursor: default;
 }
 
 .btn1{
