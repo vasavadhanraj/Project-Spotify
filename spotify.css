@@ -159,6 +159,7 @@ body{
     border-radius: 10px;
 }
 .btn-1{
+    opacity: 0.8;
     font-weight: 700;
     padding: 5px 12px;
     margin-left: 13px;
@@ -167,7 +168,8 @@ body{
 }
 
 .btn-1:hover{
-    font-size: 14px;
+    opacity: 1;
+    font-size: 13.5px;
     cursor: pointer;
 }
 .text3{
@@ -254,11 +256,11 @@ body{
 }
 
 .play-size{
-    font-size: 24px;
+    font-size: 24.4px;
 }
 
 .play-size:hover{
-    font-size: 24.2px;
+    font-size: 25px;
 }
 
 .line-height{
@@ -322,6 +324,10 @@ body{
     font-size: 12px;
 }
 
+.icon-size2{
+    font-size: 15px;
+}
+
 .left{
     margin-left: 12px;
 }
@@ -340,7 +346,7 @@ body{
     font-size: 12px;
     align-items: center;
     color: #b3b3b3;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .volume{
